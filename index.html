@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adamant website</title>
+    <script
+      src="https://kit.fontawesome.com/c77cfb5383.js"
+      crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" href="favicon.ico" />
+  </head>
+
+  <body>
+    <!-- Hero Section -->
+    <section class="hero">
+      <h1 class="hero-title">Hi! My name is Nikita</h1>
+      <p class="hero-subtitle">This is my website</p>
+    </section>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="#about" class="nav-link">About Me</a></li>
+        <li class="nav-item"><a href="#resume" class="nav-link">Resume</a></li>
+        <li class="nav-item">
+          <a href="#projects" class="nav-link">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact" class="nav-link">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- About Me Section -->
+    <section id="about" class="about-me">
+      <div class="about-container">
+        <h2>About Me</h2>
+        <p>
+          I am a passionate web developer with experience in various
+          technologies.
+        </p>
+        <div class="about-images">
+          <img
+            src="./images/profile.png"
+            alt="Profile Image 1"
+            class="about-image"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume">
+      <div class="resume-container">
+        <h2>My Resume</h2>
+        <hr />
+        <div class="resume-content">
+          <div class="education">
+            <h3>Education</h3>
+            <p>BS in Computer Science, XYZ University</p>
+          </div>
+          <div class="work-experience">
+            <h3>Work Experience</h3>
+            <p>Frontend Developer at ABC Corp</p>
+          </div>
+          <div class="skills">
+            <h3>Skills</h3>
+            <ul>
+              <li>C#, ASP.NET Core</li>
+              <li>Python</li>
+              <li>HTML, CSS, JavaScript</li>
+              <li>React, Node.js</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <div class="projects-container">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+          <div class="project">
+            <img
+              src="./images/fit-coach.png"
+              alt="Fit coach project"
+              class="project-image"
+            />
+            <h3 class="project-title">Fit Coach</h3>
+            <a
+              class="project-github"
+              href="https://github.com/nikadamant/fit-coach"
+              >GitHub</a
+            >
+          </div>
+          <div class="project">
+            <img
+              src="./images/portfolio.png"
+              alt="Portfolio project"
+              class="project-image"
+            />
+            <h3 class="project-title">Portfolio</h3>
+            <a
+              class="project-github"
+              href="https://github.com/nikadamant/html-portfolio-css-in-html-"
+              >GitHub</a
+            >
+          </div>
+          <div class="project">
+            <img
+              src="./images/bose-landing.png"
+              alt="Bose landing page project"
+              class="project-image"
+            />
+            <h3 class="project-title">Bose landing page</h3>
+            <a
+              class="project-github"
+              href="https://github.com/nikadamant/Landing"
+              >GitHub</a
+            >
+          </div>
+          <div class="project">
+            <img
+              src="./images/flexbox-pricing-table.png"
+              alt="Flexbox pricing table project"
+              class="project-image"
+            />
+            <h3 class="project-title">Flexbox pricing table</h3>
+            <a
+              class="project-github"
+              href="https://github.com/nikadamant/flexbox-pricing-table-project"
+              >GitHub</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Me Section -->
+    <section id="contact" class="contact-me">
+      <div class="contact-container">
+        <h2>Contact Me</h2>
+        <form class="contact-form">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea
+            name="message"
+            placeholder="Your Message"
+            maxlength="800"
+            required
+          ></textarea>
+          <span id="char-warning" class="char-warning"
+            >Maximum 800 characters allowed.</span
+          >
+          <button type="submit" class="contact-button">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <p>&copy; 2025 Adamant</p>
+        <div class="social-links">
+          <a
+            href="https://www.linkedin.com/in/nikita-borysov-b43268335/"
+            target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="https://github.com/nikadamant" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="https://t.me" target="_blank"
+            ><i class="fab fa-telegram"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
