@@ -38,7 +38,7 @@ ul {
 /* Hero Section */
 .hero {
   height: 30rem;
-  background-image: url('/images/hero.jpg');
+  background-image: url('./images/hero.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
